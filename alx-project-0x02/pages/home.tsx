@@ -1,7 +1,7 @@
 // pages/home.tsx
 import Head from 'next/head';
 import Header from '../components/layout/Header';
-import Card from '../components/common/Card'; // Import the Card component
+import Card from '@/components/common/Card';
 
 const HomePage = () => {
   return (
