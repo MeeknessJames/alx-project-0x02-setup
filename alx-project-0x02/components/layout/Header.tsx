@@ -1,4 +1,3 @@
-// components/layout/Header.tsx
 import Link from 'next/link';
 
 const Header = () => {
@@ -19,13 +18,17 @@ const Header = () => {
               About
             </Link>
           </li>
-          {}
           <li>
             <Link href="/posts" className="hover:text-gray-300">
               Posts
             </Link>
           </li>
           {}
+          <li>
+            <Link href="/users" className="hover:text-gray-300">
+              Users
+            </Link>
+          </li>
         </ul>
       </nav>
     </header>
