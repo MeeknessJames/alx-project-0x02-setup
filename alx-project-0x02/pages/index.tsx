@@ -1,5 +1,6 @@
 // pages/index.tsx
 import Head from 'next/head';
+import Header from './../components/layout/Header'; 
 
 const Home = () => {
   return (
@@ -8,6 +9,8 @@ const Home = () => {
         <title>Welcome to SoloForge</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
+
+      <Header /> {}
 
       <main className="flex min-h-screen flex-col items-center justify-center p-24">
         <h1 className="text-5xl font-bold text-center">
